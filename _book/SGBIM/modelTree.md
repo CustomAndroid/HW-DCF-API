@@ -28,9 +28,18 @@ body:
 
 ### 3. 返回参数
 
-| 字段           | 字段类型 | 字段说明             |
-| -------------- | :------: | -------------------- |
-| **Code**       |  string  | 0：成功 ；其他：失败 |
+| 字段          | 字段类型 | 字段说明                                       |
+| :------------ | :------: | ---------------------------------------------- |
+| **projectId** |  string  | 项目id                                         |
+| mNodePId      |          | 节点父id                                       |
+| mNodeId       |          | 节点id                                         |
+| mNodeName     |          | 节点名称                                       |
+| mNIsModel     |          | 节点是不是模型 false：不是模型 true:是模型     |
+| lastTime      |          | 当mNIsModel为ture时,显示模型最后一次更新的时间 |
+| mName         |          | 当mNIsModel为ture时，显示模型名称              |
+| mHostUrl      |          | 当mNIsModel为ture时,显示模型对应的网络地址路径 |
+| mZipFileName  |          | 当mNIsModel为ture时,显示模型对应的压缩文件路径 |
+| mFileVersion  |          | 当mNIsModel为ture时,显示模型版本号（）         |
 
 
 返回示例：
