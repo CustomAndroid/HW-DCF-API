@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [施工沙盘](SGBIM/readme.md)
     * [模型树](SGBIM/modelTree.md)
+    * [构件属性信息查看](SGBIM/gjInfo.md)
 * 进度管理
 * 质量管理
 * 资料管理
