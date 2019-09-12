@@ -23,6 +23,7 @@ cd _book
 # 如果是发布到自定义域名
 # echo 'www.yourwebsite.com' > CNAME
 echo "" >> .gitignore
+echo "/_book" >> .gitignore
 echo "deploy.sh" >> .gitignore
 
 git config --local http.postBuffer 524288000
